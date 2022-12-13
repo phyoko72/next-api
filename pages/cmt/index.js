@@ -132,7 +132,7 @@ const CommentPage = () => {
 
     return ( 
         <>
-            <h1>Comment Page</h1>
+            <h1 className="header">Comment Page</h1>
             <button onClick={fetchCmt}>Load Comment</button>
             <form onSubmit={handleSubmit} method="post">
                 <input type="text" onChange={handleInput} placeholder="Type your comment" name="comment" id="" />
